@@ -1,0 +1,52 @@
+/* Carousel CSS */
+.carousel {
+    margin-bottom: 60px;
+}
+
+.carousel-caption {
+    z-index: -10;
+    padding-bottom: 60px;
+}
+
+.carousel-inner .item {
+    width: 100%;
+    height: 600px;
+    background-size: cover;
+    background-position: center;
+}
+
+.main_img1 {
+    background-image: url("../img/wood-2.jpg")
+}
+.main_img2 {
+    background-image: url("../img/restaurant-2.jpg")
+}
+.main_img3 {
+    background-image: url("../img/farm-2.jpg")
+}
+
+.main_logo {
+    max-height: 300px;
+}
+
+/* Navbar CSS */
+.navbar {
+    position: absolute;
+    width: 100%;
+    z-index: 10;
+    max-width: 100%;
+    background: transparent;
+    border: none;
+}
+
+#mainNavbar > ul > li > a {
+    color: #fff;
+}
+
+#mainNavbar > ul > li > a:hover {
+    color: rgb(45, 126, 52)
+}
+
+button {
+    background-color: #f39509;
+}
