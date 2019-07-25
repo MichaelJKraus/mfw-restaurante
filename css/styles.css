@@ -1,3 +1,61 @@
+@import url('https://fonts.googleapis.com/css?family=Lobster|Raleway&display=swap');
+
+/* font-family: 'Raleway', sans-serif;
+font-family: 'Lobster', cursive; */
+
+/* Global */
+/* .wrap {
+    min-height: 100vh;
+} */
+
+.container-fluid {
+    padding: 0;
+    margin: 0;
+}
+
+#our_story, #review {
+    min-height: 600px;
+}
+
+/* Navbar Section */
+.nav li a:hover, .navbar-default {
+    background-color: transparent;
+}
+
+.navbar-default {
+    border-color: transparent;
+}
+
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+    color: #fff;
+    background-color: rgba(17,17,17.5)
+}
+
+.navbar-default .navbar-nav > li > a {
+    color:#fcfcfc;
+    text-shadow: 4px 4px 5px #0a0a0a;
+}
+
+.navbar-default .navbar-nav li a:hover,
+.navbar-default .navbar-nav li a:focus {
+    color: #f8512f;
+    background-color: rgba(17,17,17,.2);
+}
+
+nav.navbar {
+    position: absolute;
+    top: 100;
+    right: 0;
+    left: 0;
+    z-index: 20;
+}
+
+.navbar-brand > img {
+    margin-top: -7px;
+}
+
 /* Carousel CSS */
 .carousel {
     margin-bottom: 60px;
@@ -29,24 +87,83 @@
     max-height: 300px;
 }
 
-/* Navbar CSS */
-.navbar {
-    position: absolute;
-    width: 100%;
-    z-index: 10;
-    max-width: 100%;
-    background: transparent;
-    border: none;
-}
-
-#mainNavbar > ul > li > a {
+/* button */
+.btn-primary {
     color: #fff;
+    background-color: #f8512f;
+    border-color: transparent;
 }
 
-#mainNavbar > ul > li > a:hover {
-    color: rgb(45, 126, 52)
+.btn-primary:hover {
+    background-color: #d34326;
+    border-color: transparent;
 }
 
-button {
-    background-color: #f39509;
+.carousel-caption p {
+    color: #f7f7f7;
+    font-size: 16px;
+}
+
+/* Our Story Section */
+
+#our_story .row {
+    margin-top: 30px;
+}
+
+#our_story h1 {
+    font-family: 'Lobster', cursive;
+    color: #f8512f;
+    font-size: 6em;
+    text-shadow: 4px 4px 5px #0a0a0a;
+}
+
+#our_story h3  {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 2em;
+    margin-top: 0;
+}
+
+#our_story p {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 300;
+}
+
+#story_year {
+    font-family: 'Playfair Display', serif;
+    font-size: 200px;
+    font-weight: 700;
+    z-index: -1;
+    position: absolute;
+    color: rgba(149, 147, 147,0.3);
+}
+
+#review {
+    background-image: url('../img/food_review.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#review .center {
+    margin: 0 auto;
+    float: none;
+    background-color: rgba(20,20,20,0.3);
+    padding: 10px;
+    margin-top: 145px;
+    border-radius: 5px;
+}
+
+#review h1 {
+    font-family: 'Lobster', cursive;
+    font-size: 5em;
+    color: #f8512f;
+    text-shadow: 1px 1px 5px #0a0a0a;
+}
+
+#review p {
+    color: #fff;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 300;
+    font-size: 2em;
+    text-shadow: 1px 1px 5px #0a0a0a;
 }
