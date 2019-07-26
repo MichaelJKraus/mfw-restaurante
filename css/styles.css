@@ -13,7 +13,7 @@ font-family: 'Lobster', cursive; */
     margin: 0;
 }
 
-#our_story, #review, #menu {
+#our_story, #review, #menu #contact_us {
     min-height: 600px;
 }
 
@@ -128,6 +128,7 @@ nav.navbar {
 
 #our_story p {
     font-family: 'Raleway', sans-serif;
+    font-size: 1.3em;
     font-weight: 300;
 }
 
@@ -160,7 +161,7 @@ nav.navbar {
     font-family: 'Lobster', cursive;
     font-size: 5em;
     color: #f8512f;
-    text-shadow: 1px 1px 5px #0a0a0a;
+    text-shadow: 4px 4px 5px #0a0a0a;
 }
 
 #review p {
@@ -168,7 +169,7 @@ nav.navbar {
     font-family: 'Raleway', sans-serif;
     font-weight: 300;
     font-size: 2em;
-    text-shadow: 1px 1px 5px #0a0a0a;
+    text-shadow: 4px 4px 5px #0a0a0a;
 }
 
 #menu {
@@ -195,4 +196,29 @@ nav.navbar {
 #appetizers, #lunch, #dinner, #desserts > h3 + p {
     font-family: 'Raleway', sans-serif;
     color: #000000;
+}
+
+/* Contact Section */
+#contact_us {
+    height: 600px;
+    background-color: #d34326;
+}
+
+#contact_us h1 {
+    font-family: 'Lobster', cursive;
+    text-transform: uppercase;
+    font-size: 4em;
+    text-shadow: 4px 4px 5px #0a0a0a;
+    color: #fff;
+}
+
+#contact_us p {
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.5em;
+    text-shadow: 4px 4px 5px #0a0a0a;
+    color: #fff;
+}
+
+#contact_us_col_12 {
+    padding-bottom: 50px;
 }
