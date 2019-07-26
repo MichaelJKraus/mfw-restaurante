@@ -13,9 +13,11 @@ font-family: 'Lobster', cursive; */
     margin: 0;
 }
 
-#our_story, #review {
+#our_story, #review, #menu {
     min-height: 600px;
 }
+
+
 
 /* Navbar Section */
 .nav li a:hover, .navbar-default {
@@ -29,7 +31,7 @@ font-family: 'Lobster', cursive; */
 .navbar-default .navbar-nav > .active > a,
 .navbar-default .navbar-nav > .active > a:hover,
 .navbar-default .navbar-nav > .active > a:focus {
-    color: #fff;
+    color: rgb(34, 34, 34);
     background-color: rgba(17,17,17.5)
 }
 
@@ -41,7 +43,7 @@ font-family: 'Lobster', cursive; */
 .navbar-default .navbar-nav li a:hover,
 .navbar-default .navbar-nav li a:focus {
     color: #f8512f;
-    background-color: rgba(17,17,17,.2);
+    background-color: rgba(17,17,17,.6);
 }
 
 nav.navbar {
@@ -62,7 +64,7 @@ nav.navbar {
 }
 
 .carousel-caption {
-    z-index: -10;
+    z-index: 20;
     padding-bottom: 60px;
 }
 
@@ -101,7 +103,7 @@ nav.navbar {
 
 .carousel-caption p {
     color: #f7f7f7;
-    font-size: 16px;
+    font-size: 20px;
 }
 
 /* Our Story Section */
@@ -133,6 +135,7 @@ nav.navbar {
     font-family: 'Playfair Display', serif;
     font-size: 200px;
     font-weight: 700;
+    text-size-adjust: auto;
     z-index: -1;
     position: absolute;
     color: rgba(149, 147, 147,0.3);
@@ -166,4 +169,30 @@ nav.navbar {
     font-weight: 300;
     font-size: 2em;
     text-shadow: 1px 1px 5px #0a0a0a;
+}
+
+#menu {
+    background-image: url('../img/black_linen.png');
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#menu h1 {
+    font-family: 'Lobster', cursive;
+    font-size: 5em;
+    color: #fff;
+    text-shadow: 4px 4px 5px #0a0a0a;
+}
+
+#menu > ul > li > a:active {
+
+}
+
+#appetizers > .col-sm-3 {
+    background-color: #fff;
+}
+
+#appetizers, #lunch, #dinner, #desserts > h3 + p {
+    font-family: 'Raleway', sans-serif;
+    color: #000000;
 }
