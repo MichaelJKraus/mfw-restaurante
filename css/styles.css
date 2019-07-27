@@ -8,6 +8,18 @@ font-family: 'Lobster', cursive; */
     min-height: 100vh;
 } */
 
+a:link {
+    color: #fff;
+}
+
+a:hover {
+    color: #d34326;
+}
+
+a:visited {
+    color: #fff;
+}
+
 .container-fluid {
     padding: 0;
     margin: 0;
@@ -200,7 +212,7 @@ nav.navbar {
 
 /* Contact Section */
 #contact_us {
-    height: 600px;
+    height: 800px;
     background-color: #d34326;
 }
 
@@ -222,3 +234,31 @@ nav.navbar {
 #contact_us_col_12 {
     padding-bottom: 50px;
 }
+
+/* email Form */
+#emailForm {
+    padding-right: 50px;
+    padding-left: 50px;
+    padding-bottom: 10px;
+    background-color: #f8512f;
+    font-family: 'Raleway', sans-serif;
+    font-size: 1em;
+    color: #fff;
+    text-shadow: 4px 4px 5px #0a0a0a;
+    border-style: solid;
+    border-radius: 20px;
+    border-color: #fff;
+}
+#emailForm b {
+    color: red;
+    font-size: 1.5em;
+}
+
+#social {
+    padding-left: 20px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.5em;
+    color: #fff;
+    text-shadow: 4px 4px 5px #0a0a0a;
+}
+
