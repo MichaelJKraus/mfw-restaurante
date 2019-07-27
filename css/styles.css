@@ -146,7 +146,7 @@ nav.navbar {
 
 #story_year {
     font-family: 'Playfair Display', serif;
-    font-size: 200px;
+    font-size: 250px;
     font-weight: 700;
     text-size-adjust: auto;
     z-index: -1;
@@ -165,7 +165,8 @@ nav.navbar {
     float: none;
     background-color: rgba(20,20,20,0.3);
     padding: 10px;
-    margin-top: 145px;
+    margin-top: 20px;
+    margin-bottom: 20px;
     border-radius: 5px;
 }
 
@@ -197,12 +198,9 @@ nav.navbar {
     text-shadow: 4px 4px 5px #0a0a0a;
 }
 
-#menu > ul > li > a:active {
-
-}
-
 #appetizers > .col-sm-3 {
     background-color: #fff;
+    padding-bottom: 10px;
 }
 
 #appetizers, #lunch, #dinner, #desserts > h3 + p {
@@ -212,7 +210,8 @@ nav.navbar {
 
 /* Contact Section */
 #contact_us {
-    height: 800px;
+    height: 900px;
+    
     background-color: #d34326;
 }
 
