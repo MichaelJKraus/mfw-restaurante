@@ -8,12 +8,24 @@ font-family: 'Lobster', cursive; */
     min-height: 100vh;
 } */
 
+a:link {
+    color: #fff;
+}
+
+a:hover {
+    color: #d34326;
+}
+
+a:visited {
+    color: #fff;
+}
+
 .container-fluid {
     padding: 0;
     margin: 0;
 }
 
-#our_story, #review, #menu {
+#our_story, #review, #menu #contact_us {
     min-height: 600px;
 }
 
@@ -128,12 +140,13 @@ nav.navbar {
 
 #our_story p {
     font-family: 'Raleway', sans-serif;
+    font-size: 1.3em;
     font-weight: 300;
 }
 
 #story_year {
     font-family: 'Playfair Display', serif;
-    font-size: 200px;
+    font-size: 250px;
     font-weight: 700;
     text-size-adjust: auto;
     z-index: -1;
@@ -152,15 +165,16 @@ nav.navbar {
     float: none;
     background-color: rgba(20,20,20,0.3);
     padding: 10px;
-    margin-top: 145px;
-    border-radius: 5px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 20px;
 }
 
 #review h1 {
     font-family: 'Lobster', cursive;
     font-size: 5em;
     color: #f8512f;
-    text-shadow: 1px 1px 5px #0a0a0a;
+    text-shadow: 4px 4px 5px #0a0a0a;
 }
 
 #review p {
@@ -168,7 +182,7 @@ nav.navbar {
     font-family: 'Raleway', sans-serif;
     font-weight: 300;
     font-size: 2em;
-    text-shadow: 1px 1px 5px #0a0a0a;
+    text-shadow: 4px 4px 5px #0a0a0a;
 }
 
 #menu {
@@ -184,15 +198,65 @@ nav.navbar {
     text-shadow: 4px 4px 5px #0a0a0a;
 }
 
-#menu > ul > li > a:active {
-
-}
-
 #appetizers > .col-sm-3 {
     background-color: #fff;
+    padding-bottom: 10px;
 }
 
 #appetizers, #lunch, #dinner, #desserts > h3 + p {
     font-family: 'Raleway', sans-serif;
     color: #000000;
 }
+
+/* Contact Section */
+#contact_us {
+    height: 900px;
+    background-color: #d34326;
+}
+
+#contact_us h1 {
+    font-family: 'Lobster', cursive;
+    text-transform: uppercase;
+    font-size: 4em;
+    text-shadow: 4px 4px 5px #0a0a0a;
+    color: #fff;
+}
+
+#contact_us p {
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.5em;
+    text-shadow: 4px 4px 5px #0a0a0a;
+    color: #fff;
+}
+
+#contact_us_col_12 {
+    padding-bottom: 50px;
+}
+
+/* email Form */
+#emailForm {
+    padding-right: 50px;
+    padding-left: 50px;
+    padding-bottom: 10px;
+    background-color: #f8512f;
+    font-family: 'Raleway', sans-serif;
+    font-size: 1em;
+    color: #fff;
+    text-shadow: 4px 4px 5px #0a0a0a;
+    border-style: solid;
+    border-radius: 20px;
+    border-color: #fff;
+}
+#emailForm b {
+    color: red;
+    font-size: 1.5em;
+}
+
+#social {
+    padding-left: 20px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.5em;
+    color: #fff;
+    text-shadow: 4px 4px 5px #0a0a0a;
+}
+
