@@ -12,7 +12,7 @@ a:link {
     color: #fff;
 }
 
-a:hover {
+a:hover, {
     color: #d34326;
 }
 
@@ -124,6 +124,13 @@ nav.navbar {
     margin-top: 30px;
 }
 
+/* #firstLetter {
+    font-family: 'Lobster', cursive;
+    font-size: 2em;
+    color:#f8512f;
+    text-shadow: 4px 4px 5px #0a0a0a;
+} */
+
 #our_story h1 {
     font-family: 'Lobster', cursive;
     color: #f8512f;
@@ -140,7 +147,7 @@ nav.navbar {
 
 #our_story p {
     font-family: 'Raleway', sans-serif;
-    font-size: 1.3em;
+    font-size: 1.4em;
     font-weight: 300;
 }
 
@@ -185,6 +192,18 @@ nav.navbar {
     text-shadow: 4px 4px 5px #0a0a0a;
 }
 
+#appetizers, #lunch, #dinner, #dessert {
+    font-family: 'Raleway', sans-serif;
+    color: #fff;
+}
+
+#appetizers h3, #lunch h3, #dinner h3, #dessert h3 {
+    font-family: 'Lobster', cursive;
+    color: #f8512f;
+    text-shadow: 1px 1px 2px #fff;
+    font-size: 3em;
+}
+
 #menu {
     background-image: url('../img/black_linen.png');
     background-size: cover;
@@ -198,14 +217,10 @@ nav.navbar {
     text-shadow: 4px 4px 5px #0a0a0a;
 }
 
-#appetizers > .col-sm-3 {
-    background-color: #fff;
-    padding-bottom: 10px;
-}
-
-#appetizers, #lunch, #dinner, #desserts > h3 + p {
-    font-family: 'Raleway', sans-serif;
-    color: #000000;
+#menuTabs {
+    font-family: 'Lobster', cursive;
+    font-size: 2em;
+    color: #f8512f;
 }
 
 /* Contact Section */
