@@ -1,12 +1,10 @@
 @import url('https://fonts.googleapis.com/css?family=Lobster|Raleway&display=swap');
 
-/* font-family: 'Raleway', sans-serif;
+/* Fonts used:
+font-family: 'Raleway', sans-serif;
 font-family: 'Lobster', cursive; */
 
 /* Global */
-/* .wrap {
-    min-height: 100vh;
-} */
 
 a:link {
     color: #fff;
@@ -71,13 +69,22 @@ nav.navbar {
 }
 
 /* Carousel CSS */
+
+#logo-01 {
+    padding-top: 175PX;
+}
+
+.carousel > h1 {
+    font-family: 'Lobster' cursive;
+}
+
 .carousel {
     margin-bottom: 60px;
 }
 
 .carousel-caption {
     z-index: 20;
-    padding-bottom: 60px;
+    padding-bottom: 175px;
 }
 
 .carousel-inner .item {
@@ -102,6 +109,7 @@ nav.navbar {
 }
 
 /* button */
+
 .btn-primary {
     color: #fff;
     background-color: #f8512f;
@@ -123,13 +131,6 @@ nav.navbar {
 #our_story .row {
     margin-top: 30px;
 }
-
-/* #firstLetter {
-    font-family: 'Lobster', cursive;
-    font-size: 2em;
-    color:#f8512f;
-    text-shadow: 4px 4px 5px #0a0a0a;
-} */
 
 #our_story h1 {
     font-family: 'Lobster', cursive;
@@ -153,13 +154,15 @@ nav.navbar {
 
 #story_year {
     font-family: 'Playfair Display', serif;
-    font-size: 250px;
+    font-size: 200px;
     font-weight: 700;
     text-size-adjust: auto;
     z-index: -1;
     position: absolute;
     color: rgba(149, 147, 147,0.3);
 }
+
+/* Review Section */
 
 #review {
     background-image: url('../img/food_review.jpg');
@@ -192,6 +195,30 @@ nav.navbar {
     text-shadow: 4px 4px 5px #0a0a0a;
 }
 
+/* Menu Section */
+
+#menu {
+    background-image: url('../img/black_linen.png');
+    background-size: cover;
+    background-attachment: fixed;
+    border-top-color: transparent;
+}
+
+#menu h1 {
+    font-family: 'Lobster', cursive;
+    font-size: 5em;
+    color: #f8512f;
+    text-shadow: 4px 4px 5px #0a0a0a;
+}
+
+#menuTabs {
+    font-family: 'Lobster', cursive;
+    font-size: 2em;
+    background-color: #f8512f;
+    border-radius: 20px;
+    border-bottom-color: transparent;
+}
+
 #appetizers, #lunch, #dinner, #dessert {
     font-family: 'Raleway', sans-serif;
     color: #fff;
@@ -203,27 +230,8 @@ nav.navbar {
     text-shadow: 1px 1px 2px #fff;
     font-size: 3em;
 }
+/* Contact Us Section */
 
-#menu {
-    background-image: url('../img/black_linen.png');
-    background-size: cover;
-    background-attachment: fixed;
-}
-
-#menu h1 {
-    font-family: 'Lobster', cursive;
-    font-size: 5em;
-    color: #fff;
-    text-shadow: 4px 4px 5px #0a0a0a;
-}
-
-#menuTabs {
-    font-family: 'Lobster', cursive;
-    font-size: 2em;
-    color: #f8512f;
-}
-
-/* Contact Section */
 #contact_us {
     height: 900px;
     background-color: #d34326;
@@ -249,6 +257,7 @@ nav.navbar {
 }
 
 /* email Form */
+
 #emailForm {
     padding-right: 50px;
     padding-left: 50px;
@@ -266,6 +275,8 @@ nav.navbar {
     color: red;
     font-size: 1.5em;
 }
+
+/* Social Media Section */
 
 #social {
     padding-left: 20px;
